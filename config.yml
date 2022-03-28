@@ -1,0 +1,46 @@
+baseURL: http://ghoscht.github.io/
+languageCode: en-us
+title: GHOSCHT
+theme: papermod
+enableRobotsTXT: true
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Categories
+      url: categories/
+      weight: 10
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+params:
+  homeInfoParams:
+    Title: Hey, I'm GHOSCHT
+    Content: >
+      I'm a 20-year-old computer science at Technical University of Munich.
+
+      - I do electronics and stuff.
+
+      - Avid gamer and VR enthusiast.
+  socialIcons:
+    - name: github
+      url: "https://github.com/GHOSCHT"
+    - name: linktree
+      url: "https://github.com/adityatelange/hugo-PaperMod"
+    - name: RsS
+      url: "index.xml"
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
