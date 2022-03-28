@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://ghoscht.github.io/sitemap.xml
