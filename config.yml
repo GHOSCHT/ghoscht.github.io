@@ -9,6 +9,10 @@ menu:
       name: Home
       url: /
       weight: 1
+    - identifier: posts
+      name: Posts
+      url: /posts
+      weight: 2      
     - name: Search
       url: search/
       weight: 10
@@ -21,21 +25,29 @@ outputs:
     - RSS
     - JSON
 params:
-  homeInfoParams:
-    Title: Hey, I'm GHOSCHT
-    Content: >
-      I'm a 20-year-old computer science at Technical University of Munich.
+  profileMode:
+      enabled: true
+      title: Hey, I'm GHOSCHT
+      subtitle: CompSci Student @TUM | electronics | VR enthusiast
+      buttons:
+        - name: Posts
+          url: /posts
+        - name: Projects
+          url: /tags/project       
 
-      - I do electronics and stuff.
-
-      - Avid gamer and VR enthusiast.
   socialIcons:
     - name: github
-      url: "https://github.com/GHOSCHT"
-    - name: linktree
-      url: "https://github.com/adityatelange/hugo-PaperMod"
-    - name: RsS
-      url: "index.xml"
+      url: "https://github.com/GHOSCHT"   
+    - name: instagram
+      url: "https://www.instagram.com/gh0scht/"
+    - name: twitter
+      url: "https://twitter.com/GHOSCHT"   
+    - name: steam
+      url: "https://steamcommunity.com/id/ghoscht/"         
+    - name: Key
+      url: "https://github.com/GHOSCHT.gpg"
+    - name: Discord
+      url: "https://discord.com/users/244761751294443520"      
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
