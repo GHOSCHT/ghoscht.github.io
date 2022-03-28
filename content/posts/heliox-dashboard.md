@@ -3,10 +3,9 @@ author: GHOSCHT
 title: Heliox Dashboard
 date: 2022-03-28
 description: Design process of the heliox dashboard
-series: ["heliox"]
-tags: ["project"]
-categories: ["electron", "react", "uart"]
-aliases: [""]
+tags: ["electron", "react", "uart","project"]
+categories: ["heliox"]
+aliases: ["electron dashboard"]
 ShowToc: true
 TocOpen: true
 ---
